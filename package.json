@@ -1,0 +1,22 @@
+{
+  "name": "api-user-master",
+  "version": "1.0.0",
+  "description": "The user api module allows register, log in, forget password, email sign up verification, and different validation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Hari Prasad Dahal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.1.0",
+    "mysql2": "^1.6.1",
+    "nodemailer": "^6.7.2",
+    "sequelize": "^6.15.0"
+  }
+}
