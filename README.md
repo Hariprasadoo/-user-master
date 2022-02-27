@@ -79,6 +79,31 @@ You should use Bearer Token to get authenticated to use the update route.
 }
 ```
 
+Below code is to test Relational database entry inside asrtologer table.
+
+## http://localhost:3000/user/astrologer
+
+```javascript
+{
+"email": "dahal.harry1@gmail.com",
+"abbreviation": "Sir",
+"university": "TU",
+"los": "BSc",
+"sector": "Physics"
+}
+```
+## http://localhost:3000/user/update-astrologer
+
+```javascript
+{
+"email": "dahal.harry1@gmail.com",
+"abbreviation": "SirUp",
+"university": "TU_Up",
+"los": "BScUp",
+"sector": "PhysicsUp"
+}
+```
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
